@@ -8,7 +8,7 @@ $q = $_GET['q'];
 $posts = mysqli_query($conn, "SELECT * FROM post WHERE judul LIKE '%{$q}%' OR konten LIKE '%{$q}%'");
 
 ?><!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 	<title>SEARCH | BLOG</title>
