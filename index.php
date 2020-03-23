@@ -6,8 +6,10 @@ include 'connect.php';
 
 $posts = mysqli_query($conn, "SELECT * FROM post");
 
-?><!DOCTYPE html>
-<html lang="en">
+?>
+
+<!DOCTYPE html>
+<html>
 
 <head>
 	<title>BLOG</title>
